@@ -9,7 +9,7 @@
 
       $data = [
         'title' => 'SharePosts',
-        "description"=>"simple Social Network"
+        "description"=>"simple Social Network "
 
       ];
      
@@ -21,7 +21,7 @@
 
       $data = [
         'title' => 'About Us',
-        "description"=>"simple Social Network"
+        "description"=>"simple Social Network ):"
       ];
 
       $this->view('pages/about', $data);
