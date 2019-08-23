@@ -1,8 +1,9 @@
 <?php
   // Load Config
-  require_once 'config/config.php';
-
-  require_once 'helpers/url_help.php';
+  require_once 'config/config.php'; //Constants
+ 
+  // Load Helper 
+  require_once 'helpers/url_help.php'; // Helper Functions
   require_once 'helpers/session_help.php';
 
   // Autoload Core Libraries

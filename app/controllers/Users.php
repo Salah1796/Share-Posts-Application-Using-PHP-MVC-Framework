@@ -166,7 +166,7 @@ class Users extends Controller
                     //die($_SESSION["user_id"]);
                     flash("login_success","Login Successfully");
 
-                    redirect("pages/index");
+                    redirect("posts/index");
 
 
 

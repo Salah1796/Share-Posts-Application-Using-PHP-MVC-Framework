@@ -3,8 +3,13 @@
     <div class="container">
     <?php flash("login_success");?>
 
-    <h1 class="display-3"><?php echo $data['title']; ?></h1>
-    <p class="lead"><?php echo $data['description']; ?></p>
+    <h1 class="display-3">
+    <?php if(isset($data))  echo $data['title']; else echo "SharePosts"; ?>
+    </h1>
+    <p class="lead">
+    <?php if(isset($data))  echo $data['description']; else echo "simple Social Network"; ?>
+
+    </p>
     </div>
   </div> 
   
